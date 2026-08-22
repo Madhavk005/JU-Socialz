@@ -1,0 +1,10 @@
+public/
+public/*
+public/**/*
+.next/
+node_modules/
+out/
+src/
+scripts/
+migrations/
+live-reel-metrics/

@@ -1,0 +1,23 @@
+[build]
+  command   = "npm run build"
+  publish   = "out"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS    = "--legacy-peer-deps"
+
+[[headers]]
+  for   = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://plausible.io https://www.googletagmanager.com https://www.google-analytics.com; img-src 'self' data: blob: https://cdn.sanity.io https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; media-src 'self' blob:; frame-src https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://plausible.io https://*.sanity.io https://script.google.com; font-src 'self' data:"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

@@ -1,0 +1,61 @@
+{
+  "name": "ju-socialz",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The official media team website of JECRC University — a cinematic showcase of student creators, their work, and the culture behind the lens.",
+  "license": "MIT",
+  "author": "JU Socialz Team",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madhavk005/JU-Socialz.git"
+  },
+  "keywords": [
+    "jecrc-university",
+    "media-team",
+    "nextjs",
+    "sanity",
+    "tailwindcss",
+    "framer-motion",
+    "student-creators"
+  ],
+  "bugs": {
+    "url": "https://github.com/Madhavk005/JU-Socialz/issues"
+  },
+  "homepage": "https://github.com/Madhavk005/JU-Socialz#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@kolapsis/shm-sdk": "^1.1.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.40.0",
+    "lenis": "^1.3.23",
+    "lucide-react": "^1.23.0",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-icons": "^5.7.0",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@next/eslint-plugin-next": "^16.2.11",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "typescript-eslint": "^8.65.0"
+  }
+}

@@ -1,0 +1,60 @@
+node_modules
+.next
+.env
+.env.*
+!.env.example
+.vercel
+*.log
+.DS_Store
+_raw_media_archive/
+public/graphics/
+public/life-at/
+public/maverick/
+public/reels/
+public/youtube/
+*.zip
+out
+
+/src/generated/prisma
+
+# macOS ghost/AppleDouble files
+._*
+._.fallow
+._.next
+._.DS_Store
+*.jpg.jpeg
+*.JPG.jpeg
+
+# Temp / junk files
+check-duplicates.js
+remove-duplicates.js
+test-all-verticals.js
+test-all-verticals.sh
+migrate_bts.js
+shm_identity.json
+skills-lock.json
+tsconfig.tsbuildinfo
+
+# Docker / infra
+compose.yml
+
+# Hostinger backup directory
+_darkgrey-*/
+
+# Live reel metrics (separate project)
+live-reel-metrics/
+migrations/
+prisma/
+prisma.config.ts
+
+# Agent skills (local tooling, not part of app)
+.agents/
+
+# Sanity Studio build output
+studio-dist/
+dist/
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
