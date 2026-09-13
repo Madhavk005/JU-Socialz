@@ -1,0 +1,8 @@
+# Default owners for the entire repository
+* @your-org/maintainers
+
+# Sanity schemas and queries
+/src/sanity/ @your-org/sanity-maintainers
+
+# GitHub configuration
+/.github/ @your-org/maintainers
